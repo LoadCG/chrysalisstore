@@ -1,0 +1,11 @@
+:root {
+    --cor-marrom: #504335;
+}
+
+.bg-marrom{
+    color: var(--cor-marrom);
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}

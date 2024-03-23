@@ -1,0 +1,27 @@
+.carousel-item-prev.carousel-item-left,
+.carousel-item-next.carousel-item-right {
+  transform: translateX(0);
+}
+
+.carousel-item-prev,
+.carousel-item-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: block !important;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item-prev {
+  transform: translateX(-100%);
+}
+
+.carousel-item-next {
+  transform: translateX(100%);
+}
+
+.carousel-item-left.active,
+.carousel-item-right.active {
+  transform: translateX(0);
+}
