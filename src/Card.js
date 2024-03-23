@@ -1,6 +1,7 @@
 import React from 'react';
 import image from './images/roupas/camisetateste.png';
 
+
 const Card = () => {
     return (
         <div className="container p-2 " >
